@@ -68,13 +68,13 @@ _Dont write separate main function again on your own._
 
 ```python
 if __name__ == '__main__':
-acno=int(input())
-acname=raw_input()
-acntbal=int(input())
-depamnt=int(input())
-withamnt=int(input())
-acnt=Account(acno,acname,acntbal)
-acntdemoobj=AccountDemo()
-print(acntdemoobj.depositAmnt(acnt,depamnt))
-print(acntdemoobj.withdrawAmnt(acnt,withamnt))
+	acno=int(input())
+	acname=raw_input()
+	acntbal=int(input())
+	depamnt=int(input())
+	withamnt=int(input())
+	acnt=Account(acno,acname,acntbal)
+	acntdemoobj=AccountDemo()
+	print(acntdemoobj.depositAmnt(acnt,depamnt))
+	print(acntdemoobj.withdrawAmnt(acnt,withamnt))
 ```
